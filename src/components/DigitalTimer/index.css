@@ -1,0 +1,206 @@
+/* Write your CSS here */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  background-image: linear-gradient(to bottom, #ffffff, #cffcf1, #ffffff);
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  max-height: 900px;
+  max-width: 900px;
+  height: 90vh;
+}
+
+.h1 {
+  font-family: roboto;
+  font-size: 40px;
+  color: #1e293b;
+  margin-bottom: 0px;
+}
+
+.timeContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: content-box;
+}
+
+.time {
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.h2 {
+  color: #00d9f5;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto;
+}
+
+.p1 {
+  color: black;
+  font-weight: bold;
+  font-family: roboto;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 65%;
+  justify-content: space-around;
+}
+
+.startContainer {
+  margin-right: 20px;
+}
+
+.button1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.image1 {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.p2 {
+  color: black;
+  font-weight: bold;
+  font-family: roboto;
+  font-size: 30px;
+}
+
+.button2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.image2 {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.p3 {
+  color: black;
+  font-weight: bold;
+  font-family: roboto;
+  font-size: 30px;
+}
+
+.p4 {
+  color: black;
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.timerLimitContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timerLimit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 250px;
+  justify-content: space-around;
+}
+
+.button3 {
+  font-family: roboto;
+  font-weight: bold;
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.button4 {
+  font-family: roboto;
+  font-weight: bold;
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.p5 {
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  width: 100px;
+  height: 50px;
+  background-size: cover;
+  border-radius: 8px;
+  font-family: roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .content {
+    flex-direction: row;
+  }
+
+  .content2 {
+    width: 50%;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+}
